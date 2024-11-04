@@ -1,0 +1,7 @@
+---
+applications:
+- name: testhi1
+  host: testhi1
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
